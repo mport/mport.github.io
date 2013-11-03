@@ -1,0 +1,24 @@
+--- 
+layout: post 
+title:  "Masters Publications" 
+date:   2013-11-03 18:05:00
+categories: wsn 
+---
+
+Below are a few publications that I had worked on during my Masters, including
+my thesis. I thought I would make them a bit more accessible.
+
+
+[M. Portnoy and N. Vlajic
+Combating Routing Microholes in Hybrid Wireless Sensor Networks
+The 7th IASTED International Conference on Wireless and Optical Communications, Montreal, Canada, May 2007, pp. 565-572.][565-213-iasted-woc-2007]
+
+[N. Vlajic, N. Moniz, M. Portnoy
+Combating routing holes by means of mobile nodes: Should energy really matter!?
+IEEE Radio and Wireless Symposium (RWS 2008), Orlando, FL, USA, January 2008, pp. 835-838.][04463622-ieee-rws-2008]
+
+[M. Portnoy (2008). Optimizing hybrid wireless sensor network performance using mobile nodes. Thesis (M.Sc.)--York University, 2008.][msc-thesis-mportnoy-2008]
+
+[565-213-iasted-woc-2007]: {{site.url}}/attachments/2013-11-03-msc-work/565-213-iasted-woc-2007.pdf
+[04463622-ieee-rws-2008]: {{site.url}}/attachments/2013-11-03-msc-work/04463622-ieee-rws-2008.pdf
+[msc-thesis-mportnoy-2008]: {{site.url}}/attachments/2013-11-03-msc-work/msc-thesis-mportnoy-2008.pdf
