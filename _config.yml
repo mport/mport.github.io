@@ -6,3 +6,9 @@ safe: true
 lsi: false
 pygments: true
 url: http://blog.michaelportnoy.ca
+analytics :
+    provider : google
+    google :
+        tracking_id : 'UA-48976841-1'
+    getclicky :
+    site_id :
