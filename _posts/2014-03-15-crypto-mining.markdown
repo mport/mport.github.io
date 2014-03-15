@@ -115,7 +115,7 @@ may be required.
 
 **Hash Rate**
 
-![Hash Rate]({{site.url}}/assets/images/2014-03-15-crypto-mining/hash_rate.png)
+<img alt="Hash Rate" src="{{site.url}}/assets/images/2014-03-15-crypto-mining/hash_rate.png" style="width: 100%;">
 
 
 **Tips**
