@@ -113,7 +113,7 @@ may be required.
 ```
 
 **Hash Rate**
-![Hash Rate]({{site.url}}/assets/images/2014-03-15-crypto-mining/rig.png)
+![Hash Rate]({{site.url}}/assets/images/2014-03-15-crypto-mining/hash_rate.png)
 
 
 **Tips**
