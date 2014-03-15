@@ -50,7 +50,7 @@ were intermittent, which affected the overall hash-rate.
 
 **Glorious Rig**
 
-![Mining Rig]({{site.url}}/assets/images/2014-03-15-crypto-mining/rig.png)
+<img src="{{site.url}}/assets/images/2014-03-15-crypto-mining/rig.png" style="width: 100%;" alt="Mining Rig">
 
 **cgminer 3.7.2 config**
 
@@ -110,9 +110,11 @@ may be required.
 "temp-hysteresis" : "3",
 "shares" : "0",
 "kernel-path" : "/usr/local/bin"
+
 ```
 
 **Hash Rate**
+
 ![Hash Rate]({{site.url}}/assets/images/2014-03-15-crypto-mining/hash_rate.png)
 
 
