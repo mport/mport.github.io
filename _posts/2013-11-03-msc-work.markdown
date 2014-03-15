@@ -2,9 +2,7 @@
 layout: post 
 title:  "Masters Publications" 
 date:   2013-11-03 18:05:00
-categories: 
-    - wsn 
-    - wireless sensor networks
+categories: wsn 
 ---
 
 Below are a few publications that I had worked on during my Masters, including
