@@ -22,30 +22,32 @@ So here are some of the things to look out for if you happen to be dealing with
 this beast:
 
 1. **Make sure sshd is running.** 
+<br/>
 It can be enabled through the admin web ui,
 however, only `root` and `admin` users will be able to login. In order to enable
 ssh login for other users, edit */etc/passwd* as the `root` user.
-
+<br/><br/>
  E.g. change from: 
-
+<br/>
  `username:x:1030:100:UserName:/var/services/homes/username:/sbin/nologin` 
-
+<br/><br/>
  to: 
-
+<br/>
  `username:x:1030:100:UserName:/var/services/homes/username:/bin/sh`
-
+<br/><br/>
  and restart sshd:
-
+<br/>
  `/usr/syno/etc.defaults/rc.d/S95sshd.sh restart`
 
 
 2. **Make sure SFTP is running.**
+<br/>
 In order to save/restore an image to/from a remote location, Clonezilla will
 mount the remote directory with SSHFS (SSH Filesystem). SSHFS operates via SFTP
 and SSH, hence an ssh account with a home directory is needed on the NAS, and SFTP 
 and SSH services have to be running. Both SSH and SFTP services can be enabled via the 
 admin web ui. 
-
+<br/>
  It is important to note that Synology's SFTP service will convert the absolute path of
  the user's home (e.g. */volume1/homes/your_home_dir*) to */home*. This is
  something I did not anticipate, and it had caused me some grief as the remote

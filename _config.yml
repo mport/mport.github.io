@@ -4,5 +4,6 @@ redcarpet:
     extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 safe: true
 lsi: false
-pygments: true
+# pygments: true
+highlighter: true
 url: http://blog.michaelportnoy.ca
